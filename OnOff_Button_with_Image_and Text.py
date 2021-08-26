@@ -25,6 +25,7 @@ def Switch():
 
 on_image =PhotoImage(file='OnLamp-icon.png')# set image for on
 off_image =PhotoImage(file='OffLamp-icon.png')# set image for off
+# Create Button
 on_button=Button(root,image=on_image,borderwidth=0,width=500,height=130,command=Switch)
 on_button.pack(pady=50)
 
